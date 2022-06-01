@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <title>Ps</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .head {
+            align-items: center;
+            display: flex;
+            width: 100%;
+            background-color: black;
+            height: 80px;
+            color: white;
+            position: sticky;
+            top : 0;
+        }
+        .img{
+            background-image: url("/img/smd.png");
+            background-size: 50px 50px;
+            display: inline-block;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            width: 50px;
+            height  : 50px;
+            position: relative;
+            left: 10px;
+        }
+        .text{
+            position: absolute;
+            top: 30px;
+            right: 120px;
+            width: 150px;
+            height: 10px;
+        }
+        .left {
+            display: inline-block;
+            height: 80vh;
+            width: 50%;
+            background-color: green;
+        }
+        .url{
+            display: inline-block;
+        }
+        .url ul li{
+            display: inline-block;
+            margin: 10px 10px;
+        }
+        .url ul{
+            align-items: left center;
+            margin-left: 100px;
+        }
+        .head ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        .right {
+            display: inline-block;
+            height: 80vh;
+            width: 50%;
+            background-color: red;
+        }
+        footer{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: black;
+            color: white;
+            height: 30px;
+            width: 100%;
+        }
+        p.center{
+            font-family: 'Nunito', sans-serif;
+            font-size: 25;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <div class="img">
+        </div>  
+        <div class="url">
+            <ul>
+                <li>
+                </li>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+            </ul>
+            <div class="text">
+                <input type="text">
+            </div>
+        </div> 
+    </div>
+    <div class="left">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto molestias quos magni dolores voluptatem nisi repellendus ducimus cumque modi voluptas. Rerum, modi voluptatum sed iusto magni nihil nisi temporibus illum.
+    </div><div class="right">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut quibusdam voluptatum voluptatibus pariatur ratione iusto reprehenderit officia earum, in consectetur unde dolore vero facere, velit natus veritatis tempora perspiciatis inventore.
+    </div>
+    <footer>
+        <p class="center">Copyright &copy; ps - all rights are reserved</p>
+    </footer>
+</body>
+
+</html>
