@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url("https://www.fonewalls.com/wp-content/uploads/2019/10/Gradient-Background-Wallpaper-161.jpg");
+            background-attachment: fixed;
+        }
+        .font {
+            font-family: 'Inter', sans-serif;
+            font-size: 25px;
+            text-align: center;
+            font-weight: bolder;
+            position: relative;
+            border-color: transparent;
+            top:2vh;
+        }
+
+        .header {
+            background-color: transparent;
+            height: 8vh;
+            color: cyan;
+            box-shadow: none;
+        }
+        .img{
+            background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/61f85893855513.5e6fb9c29b5ed.jpg");
+            width: 35vw;
+            height: 25vh;
+            background-size: cover;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            border: 2px solid cyan;
+            border-radius: 20px;
+        }
+        .content{
+            width: 50%;
+            height: 35vh;
+            margin-left: 20px;
+            margin-top: 15px;
+            /* border: 2px solid cyan; */
+        }
+        .items li{
+            list-style: none;
+            margin-bottom: 10px;
+            font-size: 15px;
+            font-family: 'Inter', sans-serif;
+            color:cyan;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+           height: 80vh;
+           width: 99%;
+           /* border: 2px solid cyan; */
+        }
+        .footer {
+            height: 5vh;
+            padding: 10px;
+            color: cyan;
+            width: 90%;
+            background-color: transparent;
+            position: sticky;/* working */
+            bottom: 0;
+            display: flex;
+            align-items: center;
+        }
+        p.center{
+            font-family: 'Nunito', sans-serif;
+            font-size: 12px;
+            text-align: center;
+            margin-top: 3px;
+            font-weight: bold;
+        }
+        .lin1{
+            text-decoration: none;
+            color: cyan;
+        }
+        .under{
+            text-decoration: underline;
+            color: rgb(18, 176, 81);
+        }
+        .bottom{
+            width: 100%;
+            background-color: transparent;
+            /* margin-left: 5px; */
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+            <p class="font">
+                Happy Birthday to "name"
+            </p>
+    </header>
+    <div class="container">
+        <div class="img"></div>
+        <div class="content">
+            <ul class="items">
+                <li>
+                    Name : "name"
+                </li>
+                <li>
+                    Class : "class"
+                </li>
+                <li>
+                    Etc : "item"
+                </li>
+                <li>
+                    Etc : "item"
+                </li>
+                <li >
+                    <a class="lin1" href="images.html" target="_blank">Images : <span class="under">To view images</span></a>
+                </li>
+                <li>
+                    <a class="lin1" href="#">Etc : <span class="under">"link"</span></a>
+                </li>
+                <li>
+                    <a class="lin1" href="#">Etc : <span class="under">"link"</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="bottom">
+            <p class="center">
+                Copyright &copy; 2022 All rights are reserved
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
