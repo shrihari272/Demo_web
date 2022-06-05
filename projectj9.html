@@ -49,11 +49,10 @@
             border-radius: 20px;
         }
         .content{
-            width: 50%;
+            width: 90%;
             height: 35vh;
             margin-left: 20px;
             margin-top: 15px;
-            /* border: 2px solid cyan; */
         }
         .items li{
             list-style: none;
@@ -69,22 +68,20 @@
            width: 99%;
            /* border: 2px solid cyan; */
         }
-        .footer {
+        /*.footer {
             height: 5vh;
             padding: 10px;
             color: cyan;
             width: 90%;
             background-color: transparent;
-            position: sticky;/* working */
-            bottom: 0;
-            display: flex;
-            align-items: center;
-        }
+         
+        }*/ /*No more*/
         p.center{
             font-family: 'Nunito', sans-serif;
             font-size: 12px;
             text-align: center;
             margin-top: 3px;
+            margin-bottom: 3px;
             font-weight: bold;
         }
         .lin1{
@@ -98,9 +95,18 @@
         .bottom{
             width: 100%;
             background-color: transparent;
-            /* margin-left: 5px; */
             margin-left: auto;
             margin-right: auto;
+            position: relative;
+            top: 10vh;                  /*check on it*/
+            padding: 10px;
+            color: cyan;
+            width: 90%;
+            background-color: transparent;
+        }
+        .video{
+            width: 100%;
+            height: 30vh;
         }
     </style>
 </head>
@@ -127,25 +133,24 @@
                 <li>
                     Etc : "item"
                 </li>
-                <li >
+                <li>
                     <a class="lin1" href="images.html" target="_blank">Images : <span class="under">To view images</span></a>
                 </li>
                 <li>
-                    <a class="lin1" href="#">Etc : <span class="under">"link"</span></a>
+                    <a class="lin1" href="https://forms.gle/s6Rs2sy2FEndThV77">Take a servey : <span class="under">Click here</span></a>
                 </li>
                 <li>
                     <a class="lin1" href="#">Etc : <span class="under">"link"</span></a>
                 </li>
             </ul>
+            <video src="img/demo.mp4" class="video" controls></video>
         </div>
     </div>
-    <footer class="footer">
-        <div class="bottom">
-            <p class="center">
+    <div class="bottom">
+        <p class="center">
                 Copyright &copy; 2022 All rights are reserved
-            </p>
-        </div>
-    </footer>
+        </p>
+    </div>
 </body>
 
 </html>
